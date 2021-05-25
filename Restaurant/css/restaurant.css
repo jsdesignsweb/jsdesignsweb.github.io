@@ -32,6 +32,16 @@ section {
 img {
 	padding: 0 0 8% 0;
 }
+li a {
+	font-size: 1.2em;
+}
+li a:hover {
+	text-decoration: underline 5px ;
+	text-decoration-color: darkred;
+}
+.active{
+	color: darkred;
+}
 .logo-image {
 	width:100px;
 }
@@ -96,6 +106,11 @@ img {
 	position: absolute;
 	overflow: hidden;
 	border: none;
+}
+.fas, .far {
+	font-size: 1.5em; 
+	color: darkred;
+	padding: 3%;
 }
 
 
